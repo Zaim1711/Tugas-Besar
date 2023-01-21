@@ -1,0 +1,213 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+.page{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 50px ;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #557153;
+}
+.home{
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: relative;
+    position: -webkit-sticky;
+    top: 0;
+    background: #A9AF7E;
+    z-index: 1;
+    border-bottom: 1px solid #557153;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.kolom{
+    padding-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #557153;
+}
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #557153;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-grey{
+    background-color: #557153;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-grey:hover{
+    background-color: #7D8F69;
+    text-decoration: none;
+}
+a.tbl-pink{
+    background: #E97777;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.tbl-pink:hover{
+    background-color: #FF9F9F;
+    text-decoration: none;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+.pemesanan-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kartu-pemesanan{
+     width: 20px;
+     margin: 0 auto;
+}
+
+.kartu-pemesanan img{
+    width: 500%;
+    border-radius: 50%;
+}
+.kartu-pemesanan p {
+    font-family: 'comis sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #557153;
+}
+#Contact{
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #557153;
+    width: 100%;
+    line-height: 50%;
+}
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 992.98px) {
+    .page{
+        width: 90%;
+    }
+    
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .home{
+        width: 100%;
+        margin: 0;
+    }
+    nav .home ul{
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    nav .home ul li{
+        display: inline-block;
+        float: none;
+    }
+    section{
+        display: block;
+    }
+    section img{
+        display: block;
+        
+    }
+    .kartu-pemesanan{
+        width: 10px;
+    }
+}
+.login{
+    width: auto;
+    height: auto;
+    align-items: center;
+}
